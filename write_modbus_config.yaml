@@ -1,0 +1,12 @@
+modbus_registers:
+  - address: 831
+    description: "举升电机-目标速度RPM"
+    data_type: "int"
+    write_value: -100
+
+  - address: 810
+    description: "左轮电机-使能控制字"
+    data_type: "int"
+    write_value: 15
+  
+

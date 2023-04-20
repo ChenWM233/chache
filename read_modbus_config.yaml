@@ -1,0 +1,25 @@
+modbus_registers:
+  - address: 196
+    description: "整车控制字"
+    data_type: "int"
+  - address: 830
+    description: "举升电机使能-控制字"
+    data_type: "int"
+  - address: 831
+    description: "举升电机-目标速度RPM"
+    data_type: "int"
+  - address: 820
+    description: "右驱动轮电机使能-控制字"
+    data_type: "int"
+  - address: 836
+    description: "举升电机-当前速度RPM"
+    data_type: "int"
+  - address: 837
+    description: "举升电机-当前位置H"
+    data_type: "word"
+  - address: 838
+    description: "举升电机-当前位置L"
+    data_type: "word"
+
+  
+
